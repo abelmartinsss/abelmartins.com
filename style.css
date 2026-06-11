@@ -3,24 +3,24 @@
 }
 
 @font-face {
-  font-family: "Lanterne";
-  src: url("./assets/fonts/Lanterne-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Lanterne-Light";
+    src: url("./assets/fonts/Lanterne-Light.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 300;
 }
 
 @font-face {
-  font-family: "Lanterne";
-  src: url("./assets/fonts/Lanterne-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Lanterne-Light";
+    src: url("./assets/fonts/Lanterne-LightItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 300;
 }
 
 body {
   margin: 0;
   background: #050505;
   color: #f2f0ea;
-  font-family: "Lanterne";
+  font-family: "Lanterne-Light";
   font-size: 14px;
   line-height: 0.20;
   text-align: center;
@@ -45,15 +45,13 @@ main {
     font-size:13px;
 
     line-height:1.2;
-
+}
 
 .name{
-    font-family:"Lanterne-Light";
     font-style:normal;
 }
 
 .role{
-    font-family:"Lanterne-LightItalic";
     font-style:italic;
 }
 
